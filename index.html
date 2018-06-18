@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <header>Crystal Collectors!</header>
+    <div id="gameInstruction">
+        <p>
+            You will be given a random number at start of the game.
+        </p>                
+            There are four crystals below. By clicking on a crystal you 
+            will add a specifi amount of points to your total score.
+        <p>
+            You win the game by matching your total score to random number;
+            otherwise, you lose the game if your total score goes above 
+            the random number.
+        </p>
+        <p>
+            The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>
+            Each time when the game starts, the game will change value of each crystal.
+        </p>
+
+    </div>
+
+    <div id=randomComputerNumber></div>
+
+<!-- // In the sample, this message is hidden. Only when the game starts, the message appears -->
+<!-- "You won!" or "You lost!" // -->
+    
+    <div id=winLoseContainer>
+        <div id=winOrLoseMessage></div> 
+
+        <div id=wins>Wins
+            <br><br>
+            <span id="winCounter">0</span>
+        </div>
+        <div id=losses>Losses
+        <br><br>
+        <span id="lossCounter">0</span>
+        </div>    
+    </div>
+
+    <div  id=crystalContainer>
+
+        <button data-crystal="firstCrystal">gem 1</button>
+
+        <button data-crystal="secondCrystal">gem 2</button>
+
+        <button data-crystal="thirdCrystal">gem 3</button>
+
+        <button data-crystal="fourthCrystal">gem 4</button>
+
+
+    </div>    
+
+    <p id=totalScore>Your total score is: </p>
+
+    <div id=yourScore></div>
+
+
+<script src="assets/javascipt/game.js"></script>
+</body> 
+</html>
