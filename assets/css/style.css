@@ -1,0 +1,54 @@
+header {
+    font-weight: bold;
+    border: solid;
+    padding: 20px;
+}
+
+#gameInstruction {
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+#randomComputerNumber {
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+    width: 50px;
+
+}
+
+#winLoseContainer {
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+    width: 50px;
+}    
+
+#wins {
+    border: solid;
+
+}
+
+#losses {
+    border: solid;
+    
+}
+
+#yourScore {
+    border: solid;
+    padding: 20px;
+    margin: 20px;
+    width: 50px;
+}
+
+
+#crystalContainer {
+    border: solid;
+    padding: 20px;
+    margin: 5px;
+    width: 500px;
+    height: 80px;
+}
+
