@@ -28,7 +28,7 @@
         </p>
         <br>
         <p>
-            You win the game by matching your total score to random number;
+            You win the game by matching your total score to the random number;
             otherwise, you lose the game if your total score goes above 
             the random number.
         </p>
@@ -48,34 +48,43 @@
 
     <div id="scoreContainer">
         <p id="numberToMatch">Number to match: </p>
+        <br>
         <div id=randomComputerNumber>0</div>
-
-        <p id=totalScore>Your total score is: </p>
+        <br>
+        <p id=totalScore>Your total score: </p>
+        <br>
         <div id=yourScore>0</div>
     </div>    
 
     <div id="funImage">
-        <img id="funImageIndy" src="https://giphy.com/gifs/harrison-ford-indiana-jones-sean-connery-JtYtvbxdGPySY" alt="">
-        <iframe src="https://giphy.com/embed/JtYtvbxdGPySY" width="480" height="204" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/harrison-ford-indiana-jones-sean-connery-JtYtvbxdGPySY">via GIPHY</a></p>
+        <img id="funImageIndy" src="assets/images/IndianaJonesCrystal.JPG" alt="">
+        <!-- <iframe src="https://giphy.com/embed/JtYtvbxdGPySY" width="480" height="204" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/harrison-ford-indiana-jones-sean-connery-JtYtvbxdGPySY"></a></p> -->
     </div>
 
     <div id=winLoseContainer>
         <div id=result></div> 
 
+    <!-- <div id="youWin"></div> // hide until player wins  -->        
+
+        <p>Wins:</p>
+        <br>
         <div id=wins>
-            <p>Wins</p> 
-            <br><br>
             <span id="winCounter">0</span>
         </div>
+        <br>
+        <p>Losses:</p>
+        <br>
         <div id=losses>
-            <p>Losses</p>
-        <br><br>
-        <span id="lossCounter">0</span>
+            <span id="lossCounter">0</span>
         </div>    
     </div>
 
-
     <div  id=crystalContainer>
+
+        <p id="crystalText">
+            Click on the crystals below to add points to your total score 
+        </p>
+        <br>
 
         <button data-crystal="firstCrystal" class="button" data-value=[]><img src="assets/images/GemBlue.jpg"></button>
 
