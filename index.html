@@ -49,53 +49,45 @@
     <div id="scoreContainer">
         <p id="numberToMatch">Number to match: </p>
         <br>
-        <div id=randomComputerNumber>0</div>
+            <div id=computerNumber></div>
         <br>
         <p id=totalScore>Your total score: </p>
         <br>
-        <div id=yourScore>0</div>
+            <div id=yourScore></div>
     </div>    
 
     <div id="funImage">
         <img id="funImageIndy" src="assets/images/IndianaJonesCrystal.JPG" alt="">
-        <!-- <iframe src="https://giphy.com/embed/JtYtvbxdGPySY" width="480" height="204" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/harrison-ford-indiana-jones-sean-connery-JtYtvbxdGPySY"></a></p> -->
     </div>
 
     <div id=winLoseContainer>
         <div id=result></div> 
-
-    <!-- <div id="youWin"></div> // hide until player wins  -->        
-
-        <p>Wins:</p>
-        <br>
-        <div id=wins>
-            <span id="winCounter">0</span>
-        </div>
-        <br>
-        <p>Losses:</p>
-        <br>
-        <div id=losses>
-            <span id="lossCounter">0</span>
-        </div>    
+            <br>
+            <p>Wins:</p>
+            <br>
+                <div id=wins>
+                    <span id="winCounter">0</span>
+            </div>
+            <br>
+            <p>Losses:</p>
+            <br>
+                <div id=losses>
+                    <span id="lossCounter">0</span>
+            </div>    
     </div>
 
-    <div  id=crystalContainer>
-
+    <div  id=crystalContainer  align="center">
         <p id="crystalText">
             Click on the crystals below to add points to your total score 
         </p>
         <br>
-
-        <button data-crystal="firstCrystal" class="button" data-value=[]><img src="assets/images/GemBlue.jpg"></button>
-
-        <button data-crystal="secondCrystal"  class="button" data-value=[]><img src="assets/images/GemGreen.jpg"></button>
-
-        <button data-crystal="thirdCrystal" class="button" data-value=[]><img src="assets/images/GemPurple.jpg"></button>
-
-        <button data-crystal="fourthCrystal" class="button" data-value=[]><img src="assets/images/GemOrange.jpg"></button>
-
+        <button class="button"><img src="assets/images/GemBlue.jpg" alt="" id="blue"></button>
+        <button class="button"><img src="assets/images/GemGreen.jpg" alt="" id="green"></button>
+        <button class="button"><img src="assets/images/GemPurple.jpg" alt="" id="purple"></button>
+        <button class="button"><img src="assets/images/GemOrange.jpg" alt="" id="orange"></button>
     </div>    
 
-<script src="assets/javascipt/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascipt/game.js"></script>
 </body> 
 </html>
